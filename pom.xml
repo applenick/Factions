@@ -62,4 +62,24 @@
 		</dependency>
 	</dependencies>
 	
+	
+	
+	<scm>
+		<connection>scm:git://github.com:applenick/factions.git</connection>
+		<developerConnection>scm:git:ssh://github.com:applenick/factions.git</developerConnection>
+		<url>https://github.com/applenick/factions</url>
+	</scm>
+
+	<distributionManagement>
+		<repository>
+			<id>applenick-deployment</id>
+			<url>http://repo.applenick.com/nexus/content/repositories/releases/</url>
+		</repository>
+		<snapshotRepository>
+			<id>applenick-deployment</id>
+			<url>http://repo.applenick.com/nexus/content/repositories/snapshots/</url>
+		</snapshotRepository>
+	</distributionManagement>
+
+	
 </project>
